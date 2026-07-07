@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#08080C]">
+    <header
+      class="max-w-[1240px] m-auto flex items-center justify-between bg-black p-5"
+    >
+      <img src="images/logo.png" alt="" />
+      <ul class="flex gap-[20px] text-white text-[18px] font-[500]">
+        <li>Bosh sahifa</li>
+        <li>Kurslar</li>
+        <li>Yo`llar</li>
+        <li>Blog</li>
+      </ul>
+      <div class="btn-box flex gap-[10px]">
+        <select
+          class="border border-[#646467] bg-black text-[#646467] px-3 py-1 rounded-[10px] font-medium"
+          name=""
+          id=""
+          onchange="window.location.href = this.value"
+        >
+          <option value="index.html">UZB</option>
+          <option value="rus.html">RUS</option>
+          <option value="eng.html">ENG</option>
+        </select>
+        <button
+          class="border border-[#646467] bg-black text-[#646467] px-3 py-1 rounded-[10px] font-medium hover:bg-[#6C63FF] hover:border-none hover:text-white"
+        >
+          Kirish
+        </button>
+        <button
+          class="border border-[#646467] bg-black text-[#646467] px-3 py-1 rounded-[10px] font-medium hover:bg-[#6C63FF] hover:border-none hover:text-white"
+        >
+          Ro`yhatdan o`tish
+        </button>
+      </div>
+    </header>
+    <div class="text-box max-w-[1240px] m-auto text-center my-[83px]">
+      <button
+        class="bg-[#6C63FF] text-white border-none px-3 py-1 rounded-[10px] font-medium hover:border-[#6C63FF] hover:bg-[#171630] hover:text-[#6C63FF] text-center"
+      >
+        O`zbekistonning #1 ta`lim platformasi
+      </button>
+      <h2
+        class="text-white text-[55px] font-bold my-[20px] max-w-[700px] m-auto"
+      >
+        Bilimingizni oshiring,
+        <span class="text-[#6C63FF]">kelajagingizni yarating</span>
+      </h2>
+      <p class="text-[#757575] font-medium max-w-[500px] m-auto">
+        1000+ professional kurs, real loyiha tajribasi va tan olingan
+        sertifikatlar
+      </p>
+      <div class="bb-box flex gap-[20px] justify-center">
+        <button
+          class="border border-[#646467] bg-black text-[#646467] px-3 py-1 rounded-[10px] font-medium hover:bg-[#6C63FF] hover:border-none hover:text-white my-[27px]"
+        >
+          Bepul boshlash
+        </button>
+        <button
+          class="border border-[#646467] bg-black text-[#646467] px-3 py-1 rounded-[10px] font-medium hover:bg-[#6C63FF] hover:border-none hover:text-white my-[27px]"
+        >
+          Kurslarni ko`rish
+        </button>
+      </div>
+      <div
+        class="reyting border border-[#646467] rounded-[10px] flex justify-between max-w-[600px] m-auto p-5"
+      >
+        <div class="line">
+          <h3 class="text-white text-[25px] font-medium">50K+</h3>
+          <p class="text-[#646467]">Talabalar</p>
+        </div>
+        <div class="line">
+          <h3 class="text-white text-[25px] font-medium">1.2K</h3>
+          <p class="text-[#646467]">Kurslar</p>
+        </div>
+        <div class="line">
+          <h3 class="text-white text-[25px] font-medium">300+</h3>
+          <p class="text-[#646467]">Ekspertlar</p>
+        </div>
+        <div class="line">
+          <h3 class="text-[#F59E0B] text-[25px] font-medium">4.9</h3>
+          <p class="text-[#646467]">Reyting</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="b-box border border-[#646467] rounded-[10px] flex justify-between max-w-[800px] m-auto p-3 my-[40px]"
+    >
+      <button
+        class="text-[#757575] hover:bg-[#6C63FF] hover:text-white p-2 rounded-[10px]"
+      >
+        <i class="fa-solid fa-bolt-lightning"></i>Barchasi
+      </button>
+      <button
+        class="text-[#757575] hover:bg-[#6C63FF] hover:text-white p-2 rounded-[10px]"
+      >
+        <i class="fa-solid fa-code"></i> Dasturlash
+      </button>
+      <button
+        class="text-[#757575] hover:bg-[#6C63FF] hover:text-white p-2 rounded-[10px]"
+      >
+        <i class="fa-solid fa-paint-brush"></i> Dizayn
+      </button>
+      <button
+        class="text-[#757575] hover:bg-[#6C63FF] hover:text-white p-2 rounded-[10px]"
+      >
+        <i class="fa-solid fa-database"></i> Data
+      </button>
+      <button
+        class="text-[#757575] hover:bg-[#6C63FF] hover:text-white p-2 rounded-[10px]"
+      >
+        <i class="fa-solid fa-language"></i> Tillar
+      </button>
+      <button
+        class="text-[#757575] hover:bg-[#6C63FF] hover:text-white p-2 rounded-[10px]"
+      >
+        <i class="fa-solid fa-briefcase"></i> Biznes
+      </button>
+      <button
+        class="text-[#757575] hover:bg-[#6C63FF] hover:text-white p-2 rounded-[10px]"
+      >
+        <i class="fa-solid fa-ellipsis-h"></i> Boshqalar
+      </button>
+    </div>
+    <div class="ab-box max-w-[1240px] m-auto flex justify-between items-center">
+      <h2 class="text-white font-bold text-[30px]">
+        Mashhur kurslar
+        <p class="text-[#757575] text-[16px]">
+          2 ta kurs professional sertifikat bilan
+        </p>
+      </h2>
+      <button
+        class="text-[#757575] border border-[#757575] px-2 py-3 rounded-[10px] hover:bg-[#6C63FF] hover:text-white hover:border-none my-[50px]"
+      >
+        <i class="fa-solid fa-magnifying-glass"></i>Kurs qidirish...
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
